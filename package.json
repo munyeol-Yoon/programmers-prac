@@ -1,0 +1,11 @@
+{
+  "name": "programmers-py",
+  "version": "1.0.0",
+  "description": "끝까지 다 풀어보자",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
