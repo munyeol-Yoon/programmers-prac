@@ -16,3 +16,4 @@ function solution(phone_number) {
 
 console.log(solution("01033334444"));
 console.log(solution("027778888"));
+ // prettier
