@@ -39,3 +39,26 @@ print(solution(10, 2))
 
 # print(solution(10, 2)); # [4, 3]
 # 근의 공식
+
+
+# # ============================= 코드만 
+# import math
+# def calculate_width(brown, size):
+#     discriminant = (2 + brown/2) ** 2 - 4  * size # 판별식
+
+#     if discriminant == 0:
+#         w = (2 + brown/2) / 2
+#         return w
+
+#     if discriminant > 0:
+#         w = ((2 + brown/2) + math.sqrt(discriminant)) / 2
+#         return w
+
+# def solution(brown, yellow):
+#     size = brown + yellow
+
+#     width = calculate_width(brown, size)
+#     height = size / width
+
+#     answer = [width, height]
+#     return answer
